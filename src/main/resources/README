@@ -1,0 +1,12 @@
+Lab 1 - Setup
+==============
+1. Go to the tests section. Run them. They should all pass.
+2. Change the value from 360 to something wrong. Run the test. Read the message.
+3. A line is commented out. Remove the assert and replace it with the Assertions test.
+   Now run the test again, reading the more meaningful error message. Do you understand why Assertions is recommended?
+4. Before you proceed do you understand why interfaces are used in coding? Ensure that you do.
+5. Add code to the main class to create a new WeddingRepository object using its implementation MockWeddingRepositoryImpl.
+   Add code to display the details of wedding RS342. You will have to add the Lombok @ToString to the class level to get
+   meaningful output rather than the default which is the address in memory.
+6. Add code to create a new CalculateCost object in main() into which the WeddingRepository is wired.
+   Demonstrate the incVat and exVat functionality.
