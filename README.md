@@ -45,7 +45,7 @@ By default, the VAT rate is hardcoded in the service layer (`0.15` or 15%). You 
 ## 🙋‍♀️ Author
 Created for educational purposes to demonstrate good practices around layering, DTOs, and testable design.
 
-###############################################################################################################################################################################
+
 ## TODO ##
 By the end of this lab, you should know
 - how to create beans using Java with @Configuration and @Bean
